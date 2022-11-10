@@ -1,11 +1,9 @@
-let num = 4
-// let num = 4
+let n = 4
 
 
-function solution(num) {
-  var answer = '';
-
+function solution(n) {
+  var answer = 0;
   return answer;
 }
 
-solution(num)
+solution(n)
