@@ -28,3 +28,4 @@ solution(n)
 
 // deepdive로 메소드 찾음. 수학적인 생각은 조금 미뤄둠.
 // Number.isInteger => 인수로 전달된 숫자값이 정수인지 검사 TF출력
+// Math.pow => 제곱하기 , Math.sqrt(n) 제곱근구하기
