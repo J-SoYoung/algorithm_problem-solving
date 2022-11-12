@@ -1,6 +1,14 @@
-const a = new Array("3") // ["3"]
-const b = new Array(3) // [empty x 3]
-const c = ["3"] // ["3"]
-const d = [3] // [3]
+let n = 123
 
-console.log(a,b,c,d)
+
+function solution(n)
+{
+  var answer = 0;
+  let s = (n+'').split('')
+  for (let i=0; i<s.length; i++){
+    answer += Number(s[i])
+  }
+  return answer;
+}
+
+solution(n)
