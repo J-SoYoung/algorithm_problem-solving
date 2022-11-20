@@ -30,5 +30,6 @@ solution(sizes)
 // 세로의 모양을 가로로 눕혀서 사용할 수 있다고 했으니
 // 가로,세로 구분이 없다고 봐도 무방하다고 봄. 
 // 배열을 합쳐서 정렬 후, 0번째 인덱스 + 반 나눠 첫번째 인덱스 출력 -> 안되더라 ㅋㅋㅋ
+
 // 문제를 잘못이해했나. 
 https://school.programmers.co.kr/learn/courses/30/lessons/86491
