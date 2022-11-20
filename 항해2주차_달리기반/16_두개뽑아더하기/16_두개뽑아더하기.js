@@ -22,9 +22,7 @@ function solution(numbers) {
       }
     }
   }
-  console.log(answer)
   answer.sort((a,b)=> a-b)
-  console.log(answer)
   return answer;
 }
 
