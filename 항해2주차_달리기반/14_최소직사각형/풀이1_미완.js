@@ -11,6 +11,8 @@ function solution(sizes) {
   const arr = a.filter((size,idx,arr)=> {
     return ( size === arr[0] || size === arr[(arr.length)/2] )
   })
+  // 여기서 문제인거같기도하고. ㅇㅅㅇ ㅋㅋㅋㅋㅋ
+  // 다음에 더 풀어보자. 
   answer = arr.reduce((a,b)=> a*b)
   console.log(answer)
   return answer;
@@ -24,8 +26,9 @@ solution(sizes)
 // console.log(arr)
 // console.log(arr.reduce((a,b)=> a*b))
 
-
-
+// 구현의 계획. 실현은 아직.
 // 세로의 모양을 가로로 눕혀서 사용할 수 있다고 했으니
-// 가로,세로 구분이 없다고 봐도 무방한가 ?
+// 가로,세로 구분이 없다고 봐도 무방하다고 봄. 
 // 배열을 합쳐서 정렬 후, 0번째 인덱스 + 반 나눠 첫번째 인덱스 출력 -> 안되더라 ㅋㅋㅋ
+// 문제를 잘못이해했나. 
+https://school.programmers.co.kr/learn/courses/30/lessons/86491

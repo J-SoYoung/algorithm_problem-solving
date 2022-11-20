@@ -8,3 +8,4 @@ function solution(n) {
 }
 
 solution(num)
+
