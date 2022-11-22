@@ -32,4 +32,4 @@ solution(sizes)
 // 배열을 합쳐서 정렬 후, 0번째 인덱스 + 반 나눠 첫번째 인덱스 출력 -> 안되더라 ㅋㅋㅋ
 
 // 문제를 잘못이해했나. 
-https://school.programmers.co.kr/learn/courses/30/lessons/86491
+// https://school.programmers.co.kr/learn/courses/30/lessons/86491
