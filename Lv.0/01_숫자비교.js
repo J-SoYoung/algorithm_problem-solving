@@ -1,4 +1,4 @@
-// 숫자비교
+// 두 숫자를 비교하라 
 // https://school.programmers.co.kr/learn/courses/30/lessons/120807
 let num1 = 4
 let num2 = 4
