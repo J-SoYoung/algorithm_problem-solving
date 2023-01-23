@@ -10,7 +10,6 @@ function solution(numbers) {
   // console.log(Math.max(...numbers))
   numbers.sort((a,b) =>b-a )
   answer = numbers[0] * numbers[1]
-  console.log(answer)
   return answer;
 }
 
