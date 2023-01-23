@@ -6,14 +6,11 @@
 let array	 = [0, 2, 3, 4]
 let n = 1
 
-
-
 function solution(array, n) {
   var answer = 0;
   array.forEach((ele) => {
     if( ele === n ) {answer += 1} 
   });
-  console.log(answer)
   return answer;
 }
 
