@@ -7,11 +7,9 @@
 let array = [149, 180, 192, 170]
 let height = 167
 
-
 function solution(array, height) {
   var answer = 0;
   answer = array.filter((ele)=>ele > height)
-  console.log(answer.length)
   return answer.length;
 }
 
