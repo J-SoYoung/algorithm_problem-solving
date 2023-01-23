@@ -1,9 +1,10 @@
+// 지불해야 하는 돈을 계산하라
+// https://school.programmers.co.kr/learn/courses/30/lessons/120830
+
 // let n = 10
 // let k = 3
 let n = 64
 let k = 6
-// let num = 4
-
 
 function solution(n, k) {
   var answer = ((12000 * n) + (2000 * k) - (2000 * Math.floor(n/10)))
