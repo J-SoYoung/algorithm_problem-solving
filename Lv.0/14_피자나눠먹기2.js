@@ -5,7 +5,7 @@ let n = 1
 
 function solution(n) {
   var answer = 0;
-  answer = math.ceil(n/7)
+  answer = Math.ceil(n/7)
   return answer;
 }
 
