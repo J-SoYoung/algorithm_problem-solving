@@ -1,26 +1,18 @@
-// 나누어 떨어지는 수
-// array의 각 element 중 divisor로 나누어 떨어지는 값을 오름차순으로 정렬한 배열을 반환하는 함수
-// https://school.programmers.co.kr/learn/courses/30/lessons/12910
+// 수박수박 : 4이면 "수박수박"을 리턴하고 3이라면 "수박수"를 리턴
+// https://school.programmers.co.kr/learn/courses/30/lessons/12922
 
-// let arr = [5, 9, 7, 10];
-// let divisor = 5;
-// let arr = [2, 36, 1, 3];
-// let divisor = 1;
-let arr = [3, 2, 6];
-let divisor = 10;
+// let n = 3;
+let n = 4;
 
-function solution(arr, divisor) {
-  var answer = [];
-  const result = arr.filter((a) => a % divisor === 0);
-  result.length === 0
-    ? answer.push(-1)
-    : (answer = result.sort((a, b) => a - b));
+function solution(n) {
+  let answer = "";
+  let str = "수박";
+  answer = str.repeat(Math.floor(n / 2));
+  n % 2 === 0 ? answer : (answer += "수");
   return answer;
 }
+solution(n);
 
-solution(arr, divisor);
-
-// filter을 돌면서 arr의 각 원소와 divisor을 나눈다
-// 나눠서 떨어지는 값이 있으면 push해서 넣는다
-// sort해서 오름차순 정렬
-// push한 배열이 없으면 -1입력
+// 짝수면 '수박'문자룰 n/2만큼 더하고
+// 홀수면 n/2만큼 더한 문자에 , '수'를 한글자 더 붙일것
+// String.repeat() 메서드를 활용해 주어진 횟수만큼 반복해서 문자열을 붙였다
