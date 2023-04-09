@@ -22,6 +22,6 @@ function solution(my_string, n) {
 solution(my_string, n);
 
 // 1번째
-// string을 배열로 만들고, 문자열 메서드를 사용해 반복 문자열을 만들어봐라
+// string을 배열로 만들어 map을 활용하였다. 각 인덱스별로 repeat메서드를 적용하여 반복 문자열을 만들었다.
 // 2번째
 // 문자열의 유사배열 객체 특징을 활용하여 인덱스별로 repeat메서드를 적용시켰다.
