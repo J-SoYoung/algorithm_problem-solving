@@ -1,3 +1,5 @@
+// 예산 구하기
+// https://school.programmers.co.kr/learn/courses/30/lessons/12982
 
 let d = [1,3,2,5,4]
 let budget = 9
@@ -11,12 +13,10 @@ function solution(d, budget) {
   const budgetApply = d.sort((a,b)=>a-b).filter(ele=>{
     if( budget - ele >= 0 ){
       budget -= ele
-      console.log(budget -= ele)
       return true
     }
     return false
   })
-  console.log(budgetApply)
   return budgetApply.length;
 }
 
