@@ -1,12 +1,12 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/81301
-// 
+// 주어진 문자열을 숫자로 바꿔라.
 
 const eng = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 
-// let s = "one4seveneight";
+let s = "one4seveneight";
 // let s = "23four5six7";
 // let s = "2three45sixseven";
-let s = "123";
+// let s = "123";
 
 
 function solution(s) {
@@ -20,6 +20,3 @@ function solution(s) {
 }
 
 solution(s);
-
-// 문자열에서 숫자를 찾는다.
-// 
