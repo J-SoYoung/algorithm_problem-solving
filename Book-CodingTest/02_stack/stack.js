@@ -20,17 +20,15 @@ function push(stack, item) {
     console.log('스택이 가득 찼습니다. 데이터 추가를 못했습니다')
     return stack
   }else {
-    console.log('스택에 추가되었습니다')
     return stack.push(item);
   }
 }
 
-function pop(stack, item) {
+function pop(stack) {
   if(stack.isEmpty(stack)){
     console.log('스택이 비어있습니다')
     return 
   }else {
-    console.log('item을 제거했습니다')
-    return stack.pop(item);
+    return stack.pop();
   }
 }

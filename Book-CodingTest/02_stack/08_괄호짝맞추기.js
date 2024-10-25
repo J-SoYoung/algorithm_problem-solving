@@ -1,5 +1,5 @@
 // let s = "(())()";
-let s = "((())()";
+let s = "(())()(";
 
 // 문자열을 앞에서부터 보며 열린괄호가 나오면 stack에 푸시
 // 닫힌 괄호가 나오면 pop연산을 통해 문자열에서 열린/닫힌 괄호 한쌍을 상쇄
@@ -10,16 +10,17 @@ function solution(s) {
   for (const c of s) {
     if (c === "(") {
       stack.push(c);
+      console.log(stack);
     } else if (c === ")") {
       if (stack.length === 0) {
-        return;
+        return false;
       } else {
-        console.log(stack);
+        console.log("괄호찾음", stack);
         stack.pop();
-        console.log(stack);
       }
     }
   }
+  console.log("남는것", stack);
   return stack.length === 0;
 }
 
