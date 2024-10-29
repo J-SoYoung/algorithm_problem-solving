@@ -9,14 +9,12 @@
 - arr의 원소의 중복은 없다
 */
 
+
 let arr = [1, 2, 3, 4, 8];
 let target = 6; // true
 
-// let arr = [2, 3, 5, 9];
-// let target = 10 // false
-
+// HashTable을 사용하지 않고 이중for문으로 구현함 
 function solution(arr) {
-  let result;
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr.length; j++) {
       console.log(`${arr[i]} + ${arr[j]} = ${arr[i] + arr[j]}`);
