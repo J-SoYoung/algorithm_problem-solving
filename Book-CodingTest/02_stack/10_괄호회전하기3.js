@@ -8,9 +8,8 @@
  *
  */
 
-function solution(s) {
-  const n = s.length;
-  let answer = 0;
+function solution(s) {0
+  let answer = 0;6
 
   for (let i = 0; i < s.length; i++) {
     const stack = [];
