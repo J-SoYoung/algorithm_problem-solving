@@ -16,6 +16,7 @@
  * 다리 위로 올라올 때와 지나갈 때의 상황을 확인하지 못한 점
  */
 
+// 이전풀이 -> 빠진 부분이 많음 아래와 비교  
 // function solution(bridge_length, weight, truck_weights) {
 //   let time = 0;
 //   let bridges = [];
@@ -49,12 +50,15 @@
 //   return time;
 // }
 
+// bridge_length : 다리에 올라갈 수 있는 트럭 수
+// weight : 다리가 견딜 수 있는 무게
+// truck_weights : 트럭별 무게
 function solution(bridge_length, weight, truck_weights) {
   let answer = 0;
   let bridges = Array(bridge_length).fill(0);
   let bridgeSum = 0;
 
-  while (truck_weights.length > 0 || bridgeSum > 0) {
+  while (truck_weights.length > 0 || bridges.length > 0) {
     answer++;
     // 1. 다리를 건넌 트럭 제거
     const truck = bridges.shift();
